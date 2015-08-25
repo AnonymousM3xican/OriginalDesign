@@ -24,7 +24,7 @@ public void draw()
  	ears();
  	rect();
  	oval(); 
-  	}
+}
 public void face()
 {
 	fill(250,100,100);
@@ -34,6 +34,7 @@ public void ears()
 {
 	fill(100,100,100);
   	ellipse(10,15,20,20);
+
   	ellipse(50,15,20,20);
 }
 public void rect()

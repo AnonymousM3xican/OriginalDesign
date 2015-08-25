@@ -1,3 +1,7 @@
+
+int diameter = 0;
+int grow = 1;
+
 void setup()
 {
 size(100,100);
@@ -8,7 +12,7 @@ void draw()
  	ears();
  	rect();
  	oval(); 
-  	}
+}
 void face()
 {
 	fill(250,100,100);
@@ -18,6 +22,7 @@ void ears()
 {
 	fill(100,100,100);
   	ellipse(10,15,20,20);
+
   	ellipse(50,15,20,20);
 }
 void rect()
