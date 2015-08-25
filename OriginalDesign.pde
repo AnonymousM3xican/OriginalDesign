@@ -11,7 +11,7 @@ void draw()
  	face();
  	ears();
  	rect();
- 	oval(); 
+ 	test(); 
 }
 void face()
 {
@@ -31,7 +31,7 @@ void rect()
   	rect(10,70,50,20);	
 } 
 
-void oval()
+void test()
 {
 	fill(100,100,250);
   	ellipse(80,50,20,90);	
