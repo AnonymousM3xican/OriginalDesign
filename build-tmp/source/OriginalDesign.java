@@ -14,6 +14,8 @@ import java.io.IOException;
 
 public class OriginalDesign extends PApplet {
 
+
+
 public void setup()
 {
 size(100,100);
@@ -22,7 +24,7 @@ public void draw()
 {
  	face();
  	ears();
- 	rect();
+ 	square();
  	oval(); 
 }
 public void face()
@@ -37,7 +39,7 @@ public void ears()
 
   	ellipse(50,15,20,20);
 }
-public void rect()
+public void square()
 {
 	fill(100,250,100);
   	rect(10,70,50,20);	

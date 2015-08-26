@@ -1,6 +1,4 @@
 
-int diameter = 0;
-int grow = 1;
 
 void setup()
 {
@@ -10,8 +8,8 @@ void draw()
 {
  	face();
  	ears();
- 	rect();
- 	test(); 
+ 	square();
+ 	oval(); 
 }
 void face()
 {
@@ -25,13 +23,13 @@ void ears()
 
   	ellipse(50,15,20,20);
 }
-void rect()
+void square()
 {
 	fill(100,250,100);
   	rect(10,70,50,20);	
 } 
 
-void test()
+void oval()
 {
 	fill(100,100,250);
   	ellipse(80,50,20,90);	
